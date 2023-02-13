@@ -1,0 +1,12 @@
+{
+    "full_name": "Emanuele",
+    "email": "epalese@example.com",
+    "github_username": "epalese",
+    "project_name": "My Personal Python Boilerplate",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "All the boilerplate I need to create my personal Python project ready for VS Code and unit testing in Docker.",
+    "version": "0.0.1",
+    "python_version": "3.10.10",
+    "docker_image_tag": "python:{{ cookiecutter.python_version }}-slim",
+    "requirements_file": "requirements_dev.txt"
+}
