@@ -1,0 +1,14 @@
+[project]
+name = "{{cookiecutter.project_slug}}"
+version = "{{cookiecutter.version}}"
+requires-python = ">={{cookiecutter.python_version}}"
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pip-tools",
+    "pytest",
+    "pytest-cov"
+]
